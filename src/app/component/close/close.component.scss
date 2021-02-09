@@ -1,0 +1,46 @@
+ion-content{
+    --background: skyblue;
+
+    ion-button{
+        position: absolute;
+        right: 0;
+        margin: 0px;
+        --border-radius: 0px;
+    }
+
+    ion-label{
+        top: 50%;
+        left: 0;
+        right: 0;
+        text-align: center;
+        transform: translateY(-70%);
+        position: absolute;
+        font-size: 28px;
+        color: #fff;
+        font-weight: bold;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    div{
+        width: 100%;
+        position: absolute;
+        bottom: 25%;
+        text-align: center;
+        transform: translateY(-50%);
+
+        ion-row{
+            ion-col{
+                ion-button{
+                    position: absolute;
+                    margin: 0 auto;
+                    right: 0;
+                    left: 0;
+                    width: 75%;
+                    height: 40px;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}

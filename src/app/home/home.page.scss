@@ -1,0 +1,60 @@
+
+.value {
+    text-align: right;
+    font-size: 32px;
+}
+
+.calc-button {
+    width: calc(20% - 4px);
+    height: 60px;
+    font-size: 26px;
+    --background: transparent;
+    color: #000;
+    border: 1px solid #000;
+    --background-activated: #f1f1f1;
+    --color-activated: #000;
+    --border-radius: 0px;
+}
+
+.BoysBg{
+    --background: #fff url('../../assets/img/babyBoy.jpg') no-repeat center center / cover;
+}
+
+.GirlsBg{
+    --background: #fff url('../../assets/img/sec2.jpg') no-repeat center center / cover;
+}
+
+ion-content{
+    // --background: #fff url('../../assets/img/border4.jpg') no-repeat center center / cover;
+
+    .btn-close{
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin: 0px;
+    }
+    .btn-home{
+        position: absolute;
+        right: 15%;
+        top: 0;
+        margin: 0px;
+    }
+
+    ion-item{
+        width: 80%;
+        margin: 0 auto;
+        top: 20%;
+        left: 0;
+        right: 0;
+        position: absolute;
+        --background: skyblue;
+    }
+
+    .btn{
+        position: absolute;
+        left: 0;
+        right: 0;
+        text-align: center;
+        top: 40%;
+    }
+}

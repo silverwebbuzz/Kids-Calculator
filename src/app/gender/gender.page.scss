@@ -1,0 +1,34 @@
+ion-content{
+    --background: #fff url('../../assets/img/first3.jpg') no-repeat center center / cover;
+
+    ion-button{
+        position: absolute;
+        right: 0;
+        top: 15%;
+        margin: 0px;
+    }
+
+    div{
+        width: 100%;
+        position: absolute;
+        top: 40%;
+        text-align: center;
+        transform: translateY(-50%);
+
+        ion-row{
+            ion-col{
+                ion-button{
+                    width: 80%;
+                    font-size: 25px;
+                    right: 0;
+                    left: 0;
+                    margin: 0 auto;
+                    height: 55px;
+                }
+
+            }
+        }
+
+    }
+
+}

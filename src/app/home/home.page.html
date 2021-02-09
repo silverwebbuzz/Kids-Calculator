@@ -1,0 +1,21 @@
+<ion-content [ngClass]="checkname">
+  
+    <ion-button class="btn-close" fill="clear" size="large" (click)="openModal()"><ion-icon name="close-circle" size="large"></ion-icon></ion-button>
+    <ion-button class="btn-home" fill="clear" size="large" routerLink="/gender"><ion-icon name="home" size="large"></ion-icon></ion-button>
+    <ion-button fill="clear" size="large" (click)="mute()"><ion-icon name="volume-mute" size="large"></ion-icon></ion-button>
+  
+  <ion-item>
+    <ion-label class="value">
+      {{value}}
+    </ion-label>
+  </ion-item>
+
+  <div class="btn">
+  <div *ngFor="let numGroup of numberGroups">
+    <ion-button *ngFor="let num of numGroup" (click)="onButtonPress(num)" class="calc-button">{{num}}</ion-button>
+  </div> 
+  </div>
+  
+  <!-- <ion-button routerLink="/first">First Page</ion-button>'/' -->
+    <!-- <ion-button (click)="play()">First Page</ion-button> -->
+</ion-content>
